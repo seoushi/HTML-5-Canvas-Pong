@@ -1,0 +1,6 @@
+This is a simple pong game made in a day. This is my first javascript, html 5 canvas game. Every time you bounce the ball you get 50 points. 
+
+Controls:
+
+'w'/'s' to move the left paddle 
+up/down arrow to move the right paddle. 
