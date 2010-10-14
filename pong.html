@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Playing with canvas</title>
+		<script type="text/javascript" src="paddle.js"></script>
+		<script type="text/javascript" src="game.js"></script>
+		<script type="text/javascript" src="input.js"></script>
+		<script type="text/javascript" src="introState.js"></script>
+		<script type="text/javascript" src="gameState.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<style type="text/css">
+			canvas { border: 0px solid #000; position:absolute; top:0;left:0; visibility: hidden; }
+			p { border: 0px solid #000; position:absolute; top:0;left:810; }
+		</style>
+	</head>
+	<body onload="start();">
+		<canvas id="buffer1" width="800" height="600">
+			Your browser doesn't support html5, please use a standards compliant browser such as <a href="http://www.mozilla.com">firefox</a> or <a href="http://chrome.google.com">chrome</a>.
+		</canvas>
+		<canvas id="buffer2" width="800" height="600">
+			Your browser doesn't support html5, please use a standards compliant browser such as <a href="http://www.mozilla.com">firefox</a> or <a href="http://chrome.google.com">chrome</a>.
+		</canvas>
+		<p id="debugArea">
+		</p>
+	</body>
+</html>
